@@ -12,10 +12,13 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/css/main.css'],
+  css: [
+    '@/assets/css/main.css',
+    '@fortawesome/fontawesome-svg-core/styles.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['@/plugins/fontawesome'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -30,6 +33,8 @@ export default {
     '@nuxtjs/tailwindcss',
     // https://github.com/nuxt/postcss8
     '@nuxt/postcss8',
+    // https://github.com/nuxt-community/fontawesome-module
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
