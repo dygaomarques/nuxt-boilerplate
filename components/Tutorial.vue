@@ -2,9 +2,9 @@
 <template>
   <div class="container">
     <div
-      class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0"
+      class="relative flex items-top justify-center min-h-screen bg-gray-100 items-center"
     >
-      <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto px-6 lg:px-8">
         <a
           class="flex justify-center pt-8 sm:pt-0"
           href="https://nuxtjs.org"
@@ -47,7 +47,7 @@
             />
           </svg>
         </a>
-        <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
+        <div class="mt-8 bg-white overflow-hidden shadow rounded-lg p-6">
           <h2 class="text-2xl leading-7 font-semibold">
             Welcome to your Nuxt Application
           </h2>
@@ -77,7 +77,7 @@
           </h3>
           <ul>
             <li>
-              <FontAwesome icon="boxes-packing" />
+              ⚙️
               <a
                 class="button--doc text-green-500 hover:underline"
                 href="https://typescript.nuxtjs.org/"
@@ -86,7 +86,7 @@
               >
             </li>
             <li>
-              <FontAwesome icon="boxes-packing" />
+              🎨
               <a
                 class="button--doc text-green-500 hover:underline"
                 href="https://tailwindcss.com/docs/guides/nuxtjs"
@@ -95,12 +95,21 @@
               >
             </li>
             <li>
-              <FontAwesome icon="boxes-packing" />
+              🎨
               <a
                 class="button--doc text-green-500 hover:underline"
                 href="https://fontawesome.com/docs/web/use-with/vue/use-with#nuxt-js"
                 target="__blank"
                 >FontAwesome</a
+              >
+            </li>
+            <li>
+              💄
+              <a
+                class="button--doc text-green-500 hover:underline"
+                href="https://daisyui.com/"
+                target="__blank"
+                >daisyUI</a
               >
             </li>
           </ul>

@@ -33,8 +33,6 @@ export default {
     '@nuxtjs/tailwindcss',
     // https://github.com/nuxt/postcss8
     '@nuxt/postcss8',
-    // https://github.com/nuxt-community/fontawesome-module
-    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
