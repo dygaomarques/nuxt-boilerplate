@@ -86,6 +86,15 @@
               >
             </li>
             <li>
+              🍍
+              <a
+                class="button--doc text-green-500 hover:underline"
+                href="https://pinia.vuejs.org/"
+                target="__blank"
+                >Pinia</a
+              >
+            </li>
+            <li>
               🎨
               <a
                 class="button--doc text-green-500 hover:underline"

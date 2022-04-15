@@ -33,6 +33,10 @@ export default {
     '@nuxtjs/tailwindcss',
     // https://github.com/nuxt/postcss8
     '@nuxt/postcss8',
+    // https://composition-api.nuxtjs.org/getting-started/setup#quick-start
+    '@nuxtjs/composition-api/module',
+    // https://pinia.vuejs.org/ssr/nuxt.html
+    '@pinia/nuxt',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
