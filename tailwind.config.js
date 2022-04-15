@@ -10,7 +10,9 @@ module.exports = {
     extend: {},
   },
   plugins: [
+    // https://tailwindcss.com/docs/typography-plugin
+    require('@tailwindcss/typography'),
     // https://daisyui.com/
-    require("daisyui")
+    require('daisyui'),
   ],
 }
